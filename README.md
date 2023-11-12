@@ -1,5 +1,5 @@
 
-# coursera_micro-finance
+/# coursera_micro-finance
 # A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 # add this line to change the commit 
 Input:
