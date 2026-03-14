@@ -18,7 +18,7 @@ IMPORTANT
 
 """
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional, Literal
 import math
 
@@ -48,7 +48,7 @@ class LinkInputs:
     cable_loss_rx_dB: float = 0.0
     pol_mismatch_dB: float = 0.0
     extra_losses_dB: float = 0.0
-    env: AtmosEnv = AtmosEnv()
+    env: AtmosEnv = field(default_factory=AtmosEnv)
 
 @dataclass
 class LinkOutputs:

@@ -23,7 +23,7 @@ Author: ChatGPT
 """
 
 from dataclasses import dataclass
-from typing import Optional, Dict
+from typing import Optional
 
 import math
 import json
